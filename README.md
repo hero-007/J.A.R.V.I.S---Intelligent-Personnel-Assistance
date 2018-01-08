@@ -1,7 +1,7 @@
 # J.A.R.V.I.S-
 
-J.A.R.V.I.S is an intelligent program which let you interact with your PC by talking to it. It has variuos feature in it that allow it to do 
-different task that its master asks for. Various functionalities of J.A.R.V.I.S are:
+J.A.R.V.I.S is an intelligent program which let you interact with your PC by talking to it. It has variuos feature in it that allow it to
+do different task that its master asks for. Various functionalities of J.A.R.V.I.S are:
 
 1: Empty Recycle Bin
 2: Lock the home screen of your pc
