@@ -4,11 +4,11 @@ J.A.R.V.I.S is an intelligent program which let you interact with your PC by tal
 do different task that its master asks for. Various functionalities of J.A.R.V.I.S are: <br />
 
 1: Empty Recycle Bin <br />
-2: Lock the home screen of your pc
-3: Answer mathematical queries and other general queries
-4: play a song when you are bored
-5: find you latest news from specified source, category or any topic
-6: Get you articles from wiki-pedia
-7: Search for books that you like or want to buy
-
+2: Lock the home screen of your pc <br />
+3: Answer mathematical queries and other general queries <br />
+4: play a song when you are bored <br />
+5: find you latest news from specified source, category or any topic <br />
+6: Get you articles from wiki-pedia <br />
+7: Search for books that you like or want to buy <br />
+<br />
 More functionalities will be added soon.
