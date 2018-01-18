@@ -10,5 +10,7 @@ do different task that its master asks for. Various functionalities of J.A.R.V.I
 5: find you latest news from specified source, category or any topic <br />
 6: Get you articles from wiki-pedia <br />
 7: Search for books that you like or want to buy <br />
-<br />
+8: Allows you to search any video on youtube on voice command<br />
+9: Shows you result of general query that you ask it with on the browser <br/>
+<br/>
 More functionalities will be added soon.
