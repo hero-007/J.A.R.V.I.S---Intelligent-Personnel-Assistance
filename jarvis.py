@@ -59,7 +59,7 @@ def task_performing_word(input_sent):
         elif (i== 'search' or i== 'look') and ('wikipedia' in input_list) :
             task_word = 'wikipedia'
             break
-        elif i == 'song':
+        elif i == 'song' or i=='bored':
             task_word = 'song'
             break
         elif i == 'search' and input_list[1] == 'youtube':
