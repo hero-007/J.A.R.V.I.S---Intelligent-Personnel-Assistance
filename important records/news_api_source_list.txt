@@ -1,0 +1,15 @@
+bbc-news
+bloomberg
+business-insider
+buzzfeed
+espn
+hacker-news
+mashable
+new-scientist
+techcrunch
+techradar
+the-hindu
+the-next-web
+times-of-india
+the-verge
+wired
