@@ -12,31 +12,34 @@ def validate_user():
         return 1
 
 def new_user():
-    data_list = []
+    f1 = open('user_information.txt','w')
+    f2 = open('application_list.txt','w')
+
     jarvis_dir = input("Enter the path to J.R.V.I.S directory : ")
     jarvis_dir = jarvis_dir.replace('\\','\\\\')
-    data_list.append(jarvis_dir)
+    print('cwd -',jarvis_dir,file=f1)
+
     username = input("Enter Your Username : ")
-    data_list.append(username)
+    print('username -',username,file=f1)
+
     MS_Word = input("Enter the path of MS Word .exe file : ")
     MS_Word = MS_Word.replace('\\','\\\\')
-    data_list.append(MS_Word)
+    print('ms word-',MS_Word,file=f2)
+
     MS_Excel = input("Enter the path of MS Excel .exe file : ")
     MS_Excel = MS_Excel.replace('\\','\\\\')
-    data_list.append(MS_Excel)
+    print('ms excel-',MS_Excel,file=f2)
+
     MS_Power = input("Enter the path of MS Power Point .exe file : ")
     MS_Power = MS_Power.replace('\\','\\\\')
-    data_list.append(MS_Power)
+    print('ms powerpoint-',MS_Power,file=f2)
+
     MS_Access = input("Enter the path of MS Access .exe file : ")
     MS_Access = MS_Access.replace('\\','\\\\')
-    data_list.append(MS_Access)
+    print('ms access-',MS_Access,file=f2)
+
     MS_Outlook = input("Enter the path of MS Outlook .exe file : ")
     MS_Outlook = MS_Outlook.replace('\\','\\\\')
-    data_list.append(MS_Outlook)
+    print('ms outlook-',MS_Outlook,file=f2)
 
-    f = open('user_information.txt','w')
-    for i in data_list:
-        print(i,file=f)
-    f.close()
     return
-    
