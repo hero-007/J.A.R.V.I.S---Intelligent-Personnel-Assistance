@@ -45,7 +45,7 @@ def task_performing_word(input_sent):
         if i == 'book':
             task_word = 'book'
             break
-        elif i == 'empty':
+        elif i == 'recycle':
             task_word = 'empty'
             break
         elif i == 'lock':
@@ -163,14 +163,9 @@ with sr.Microphone() as source:
                     yf.open_video_youtube(text_recieved)
                     speaker.Speak('why not sir ')
 
-                
-                        
-                            
-                             
-                # Not working properly
                 elif finl_task == 'news':
                      news_cat,news_name = nap.give_me_news_name(text_recieved)
-                     if news_cat == 'category':
+                     if news_cat == 'category':         # Not working properly
                          nap.get_by_category(news_name)
                      elif news_cat == 'from':
                          nap.get_by_source(news_name)
