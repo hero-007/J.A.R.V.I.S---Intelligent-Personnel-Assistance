@@ -1,8 +1,5 @@
-skype-C:\\Program Files (x86)\\Microsoft\\Skype for Desktop\\-skype.exe
-ms excel-C:\\Program Files (x86)\\Microsoft Office\\Office12\\-EXCEL.EXE
-ms access-C:\\Program Files (x86)\\Microsoft Office\\Office12\\-MSACCESS.EXE
-ms outlook-C:\\Program Files (x86)\\Microsoft Office\\Office12\\-OUTLOOK.EXE
-ms powerpoint-C:\\Program Files (x86)\\Microsoft Office\\Office12\\-POWERPNT.EXE
-ms word-C:\\Program Files (x86)\\Microsoft Office\\Office12\\-WINWORD.EXE
-teamviewer-C:\\Program Files (x86)\\TeamViewer\\-TeamViewer.exe
-arduino-E:\\arduino-1.8.3\\-arduino.exe
+ms word-C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE
+ms excel-C:\\Program Files (x86)\\Microsoft Office\\Office12\\EXCEL.EXE
+ms powerpoint-C:\\Program Files (x86)\\Microsoft Office\\Office12\\POWERPNT.EXE
+ms access-C:\\Program Files (x86)\\Microsoft Office\\Office12\\MSACCESS.EXE
+ms outlook-C:\\Program Files (x86)\\Microsoft Office\\Office12\\OUTLOOK.EXE

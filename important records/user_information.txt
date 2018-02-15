@@ -1,7 +1,2 @@
-c:/desktop/jarvis/new_soc/hello_boy
-hero-007
-c:/desktop/jarvis/new_soc/hello_boy
-c:/desktop/jarvis/new_soc/hello_boy
-c:/desktop/jarvis/new_soc/hello_boy
-c:/desktop/jarvis/new_soc/hell
-c:/desktop/jarvis/new_soc/hellBOYis/back
+cwd - C:\\Users\\HP\\Desktop\\J.A.R.V.I.S
+username - hero-007
