@@ -2,7 +2,7 @@
 import os
 
 
-     
+
 
 # This function takes an app name as an input and open that particular app on the system function returns 1 if the app is opened successfully on the system else it returns 0
 def open_app(app_name):
@@ -11,11 +11,11 @@ def open_app(app_name):
     app = f.read()
     app_list = app.splitlines()
     app_dict = {}
-    
+
     for i in app_list:
         app_data = i.split('-')
         app_dict[app_data[0]]=[app_data[1],app_data[2]]
-    
+
     app_name = app_name.lower()
     try:
         os.chdir(app_dict[app_name][0])
@@ -23,7 +23,7 @@ def open_app(app_name):
     except KeyError:
         return 0
     return 1
-    
+
 
 # this fuction takes a user query or a user sentence as an input and returns app name which is to be openend
 def give_me_app_name(query):
@@ -32,3 +32,4 @@ def give_me_app_name(query):
      final_query = query[5:len(query)]
      res = open_app(final_query)
      return res
+
