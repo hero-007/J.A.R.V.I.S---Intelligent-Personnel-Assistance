@@ -26,8 +26,6 @@ def empty_recycle_bin():
     except Exception:
         return 0
 
-def main():
-    empty_recycle_bin();
 
 
 

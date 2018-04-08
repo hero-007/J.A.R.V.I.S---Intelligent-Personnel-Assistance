@@ -1,5 +1,5 @@
-Sachin Ramesh Tendulkar ( ( listen); born 24 April 1973) is a former Indian cricketer and a former captain, regarded as one of the greatest batsmen of all time.
-The highest run scorer of all time in International cricket, Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years.
-He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a One Day International, the holder of the record for the most number of runs in both ODI and Test cricket, and the only player to complete more than 30,000 runs in international cricket.
-In 2002, halfway through his career, Wisden Cricketers' Almanack ranked him the second greatest Test batsman of all time, behind Don Bradman, and the second greatest ODI batsman of all time, behind Viv Richards.
-Later in his career, Tendulkar was a part of the Indian team that won the 2011 World Cup, his first win in six World Cup appearances for India.
+A blockchain, originally block chain, is a continuously growing list of records, called blocks, which are linked and secured using cryptography.
+Each block typically contains a cryptographic hash of the previous block, a timestamp and transaction data.
+By design, a blockchain is inherently resistant to modification of the data.
+It is "an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way".
+For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for inter-node communication and validating new blocks.
