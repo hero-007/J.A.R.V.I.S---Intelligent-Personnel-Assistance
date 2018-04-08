@@ -122,7 +122,7 @@ with sr.Microphone() as source:
                 print(text_recieved)
                 if finl_task == 'empty':
                     speaker.Speak('Sure sir')
-                    esf.esf.empty_recycle_bin()
+                    esf.empty_recycle_bin()
                     speaker.Speak('Recycle bin must be empty by now')
 
                 elif finl_task == 'lock':
