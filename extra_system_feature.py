@@ -26,4 +26,3 @@ def empty_recycle_bin():
     except Exception:
         return 0
 
-empty_recycle_bin()
