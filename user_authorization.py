@@ -20,26 +20,26 @@ def new_user():
     print('cwd -',jarvis_dir,file=f1)
 
     username = input("Enter Your Username : ")
-    print('username -',username,file=f1)
+    print('username -'+username,file=f1)
 
     MS_Word = input("Enter the path of MS Word .exe file : ")
     MS_Word = MS_Word.replace('\\','\\\\')
-    print('ms word-',MS_Word,file=f2)
+    print('ms word-'+MS_Word,file=f2)
 
     MS_Excel = input("Enter the path of MS Excel .exe file : ")
     MS_Excel = MS_Excel.replace('\\','\\\\')
-    print('ms excel-',MS_Excel,file=f2)
+    print('ms excel-'+MS_Excel,file=f2)
 
     MS_Power = input("Enter the path of MS Power Point .exe file : ")
     MS_Power = MS_Power.replace('\\','\\\\')
-    print('ms powerpoint-',MS_Power,file=f2)
+    print('ms powerpoint-'+MS_Power,file=f2)
 
     MS_Access = input("Enter the path of MS Access .exe file : ")
     MS_Access = MS_Access.replace('\\','\\\\')
-    print('ms access-',MS_Access,file=f2)
+    print('ms access-'+MS_Access,file=f2)
 
     MS_Outlook = input("Enter the path of MS Outlook .exe file : ")
     MS_Outlook = MS_Outlook.replace('\\','\\\\')
-    print('ms outlook-',MS_Outlook,file=f2)
+    print('ms outlook-'+MS_Outlook,file=f2)
 
     return

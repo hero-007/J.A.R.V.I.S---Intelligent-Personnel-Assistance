@@ -1,9 +1,6 @@
 """ This module is used to launch a particular application on a system but only those application can be opened whose path is defined inside application_list.txt """
 import os
 
-
-
-
 # This function takes an app name as an input and open that particular app on the system function returns 1 if the app is opened successfully on the system else it returns 0
 def open_app(app_name):
     os.chdir('C:\\Users\\HP\\Desktop\\J.A.R.V.I.S\\important records')
@@ -14,12 +11,11 @@ def open_app(app_name):
 
     for i in app_list:
         app_data = i.split('-')
-        app_dict[app_data[0]]=[app_data[1],app_data[2]]
+        app_dict[app_data[0]]=app_data[1]
 
     app_name = app_name.lower()
     try:
-        os.chdir(app_dict[app_name][0])
-        os.startfile(app_dict[app_name][1])
+        os.startfile(app_dict[app_name])
     except KeyError:
         return 0
     return 1
@@ -33,3 +29,5 @@ def give_me_app_name(query):
      res = open_app(final_query)
      return res
 
+
+give_me_app_name('open ms excel')
