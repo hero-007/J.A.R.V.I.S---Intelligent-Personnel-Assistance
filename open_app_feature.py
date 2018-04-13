@@ -28,6 +28,3 @@ def give_me_app_name(query):
      final_query = query[5:len(query)]
      res = open_app(final_query)
      return res
-
-
-give_me_app_name('open ms excel')
