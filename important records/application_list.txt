@@ -1,5 +1,5 @@
-ms word-C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE
-ms excel-C:\\Program Files (x86)\\Microsoft Office\\Office12\\EXCEL.EXE
-ms powerpoint-C:\\Program Files (x86)\\Microsoft Office\\Office12\\POWERPNT.EXE
-ms access-C:\\Program Files (x86)\\Microsoft Office\\Office12\\MSACCESS.EXE
-ms outlook-C:\\Program Files (x86)\\Microsoft Office\\Office12\\OUTLOOK.EXE
+ms word- C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE
+ms excel- C:\\Program Files (x86)\\Microsoft Office\\Office12\\EXCEL.EXE
+ms powerpoint- C:\\Program Files (x86)\\Microsoft Office\\Office12\\POWERPNT.EXE
+ms access- C:\\Program Files (x86)\\Microsoft Office\\Office12\\MSACCESS.EXE
+ms outlook- C:\\Program Files (x86)\\Microsoft Office\\Office12\\OUTLOOK.EXE

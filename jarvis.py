@@ -17,6 +17,14 @@ import news_api as nap
 import browser_feature as bf
 import youtube_feature as yf
 import book_api as bap
+import user_authorization as ua
+
+# checking for user information and getting it from the user if it is not there
+v_u = ua.validate_user()
+if v_u == 0:
+    ua.new_user()
+
+# user_authorization.py functions above
 
 
 # changing current working directory
@@ -122,7 +130,7 @@ with sr.Microphone() as source:
                 print(text_recieved)
                 if finl_task == 'empty':
                     speaker.Speak('Sure sir')
-                    esf.esf.empty_recycle_bin()
+                    esf.empty_recycle_bin()
                     speaker.Speak('Recycle bin must be empty by now')
 
                 elif finl_task == 'lock':
