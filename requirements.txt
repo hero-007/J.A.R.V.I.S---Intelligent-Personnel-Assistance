@@ -1,0 +1,5 @@
+SpeechRecognition
+ctypes
+nltk
+wikipedia
+requests
