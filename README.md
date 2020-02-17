@@ -19,7 +19,7 @@ More functionalities will be added soon.
 <h3> In order to run J.A.R.V.I.S on your PC follow the following steps - </h3>
 <ol>
   <li> Clone/Download the repository on your PC. </li>
-  <li> You need to have python 3 or above installed on your PC if you don't have it than <a href="https://www.python.org/">Download Here</a> and make sure you have all the python packages and modules required to run J.A.R.V.I.S installed.
+  <li> You need to have python 3 or above installed on your PC if you don't have it than <a href="https://www.python.org/">Download Here</a> and make sure you have all the python packages and modules required to run J.A.R.V.I.S installed <strong>[use pip3 install -r requirements.txt].</strong>
   <ul>
     <li>speech_recognition</li>
     <li>ctypes</li>
